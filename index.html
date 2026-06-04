@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us"></html>
+<link rel="stylesheet" href="stylesheet.css">
+
+<head>
+    <meta charset="UTF-8" >
+    <script src="script.js" defer></script>
+    <title>IT to-do list</title>
+</head>
+<body>
+    <header>
+    <h1>All I need to do for today</h1>
+    <h3>today's date</h3>
+    </header>
+
+    <div class="add_tasks_input">
+        <label>What will I study today: </label>
+        <input type="text" placeholder="Create a database..." id="task_input">
+        <input type="button" value="+" class="button-add-task" id="button-to-add-a-task">    
+    </div>
+    
+    
+    <h2>Tasks to do</h2>
+    <div class="check_tasks" id="list_of_tasks">
+    
+    <p class="p">
+        <span class="span">- Create a simple website</span>
+        <input type="button" value="Check" class="button-task-is-done" id="check_button" data-uid=0>
+    </p> 
+
+    <p class="p">
+        <span class ="span">- Review Python List Comprehension</span>
+        <input type="button" value="Check" class="button-task-is-done" id="check_button">
+    </p> 
+
+    <p class="p">
+        <span class="span">- Watch a video about Scrum dev </span>
+        <input type="button" value="Check" class="button-task-is-done" id="check_button">
+    </p> 
+
+
+    </div>
+
+    <div class="tasks_done">
+    <h2>All the tasks done</h2>
+    <p>- Watch a video about Scrum dev</p>     
+    </div>
+
+
+</body>
+
+
+
+
+</html>
