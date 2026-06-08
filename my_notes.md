@@ -38,6 +38,7 @@
 1. Button-add-task, when clicked, it sends the input data to the list of tasks to be done ✅
 2. Button-task-is-done sends the task to the list of tasks done decorated with a line-through ✅
 3. Today's date needs to show today's date
+4. If the input box is empty, nothing should be added 👈
 
 Bonus
 
@@ -55,14 +56,17 @@ To fix this problem, I created the function for the check-buttons immediately wh
 
 2. The added <p> elements to the to-do list has a check-button that doesn't display any text in the tasks-done list✅
 
-3. 
 
-# formatting the page style
 
-1. I noticed that the new tasks' check-buttons are too close to the task text (no left margin to the check buttons)
+# formatting the page style dynamically
 
-2. The checked tasks should all have the same font size, but the new checked tasks are a bit smaller to the default tasks which is not ideal 
+1. I noticed that the new tasks' check-buttons are too close to the task text (no left margin to the check buttons) ✅
 
-3. Checked tasks should have a line through and should be in italic to represent that the task was done
+2. The checked tasks should all have the same font size, but the new checked tasks are a bit smaller to the default tasks which is not ideal ✅
+
+3. Checked tasks should have a line through and should be in italic to represent that the task was done✅
+
+4. A - should be added before the task text like such -> "- Deploy system"
+    Obs: if the user type "-" in the first index, the system should not include another "-". A conditional script should be done here to fix this issue.✅
 
 
