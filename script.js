@@ -51,11 +51,6 @@ button_to_add.addEventListener("click", (e) => {
     else{
         new_span.textContent = task_text;
     };
-
-    if ((task_text == "")){
-
-    };
-    
     
     
     
